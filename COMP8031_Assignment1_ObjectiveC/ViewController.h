@@ -7,8 +7,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UIImageView *imageview;
+}
 
+-(IBAction)previousButton;
+-(IBAction)nextButton;
 
 @end
 
